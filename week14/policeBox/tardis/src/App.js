@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Divone from "./components/divone"
 
 function App() {
   const [state,setState] = React.useState({
@@ -29,7 +30,8 @@ function App() {
   }
   return (
     <div className="App" onClick={()=>{changeIt(state.tardis.name)}}>
-      <h1 >{state.tardis.name}</h1>
+      {/* <h1 >{state.tardis.name}</h1> */}
+      <Divone h3={state}/>
     </div>
   );
 }
