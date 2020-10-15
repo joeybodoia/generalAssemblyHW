@@ -11,26 +11,25 @@ function App() {
       caps: false
     }
   })
-  const changeIt = (text) => {
-    if (state.tardis.caps) {
-      setState({
-        tardis: {
-          name: text.toLowerCase(),
-          caps: false
-        }
-      })
-    } else {
-      setState({
-        tardis: {
-          name: text.toUpperCase(),
-          caps: true
-        }
-      })
-    }
-
-  }
+  // const changeIt = (text) => {
+  //   if (state.tardis.caps) {
+  //     setState({
+  //       tardis: {
+  //         name: text.toLowerCase(),
+  //         caps: false
+  //       }
+  //     })
+  //   } else {
+  //     setState({
+  //       tardis: {
+  //         name: text.toUpperCase(),
+  //         caps: true
+  //       }
+  //     })
+  //   }
+  // }
   return (
-    <div className="App" onClick={()=>{changeIt(state.tardis.name)}}>
+    <div className="App" >
       {/* <h1 >{state.tardis.name}</h1> */}
       <Divone h3={state}/>
     </div>
