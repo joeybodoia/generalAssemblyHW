@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Display from "./components/Display"
-import Form from "./components/Form"
+// import Form from "./components/Form"
 
 function App() {
   // API
@@ -29,7 +29,7 @@ React.useEffect(()=>{
   // });
   return (
     <div className="App">
-      <Form/>
+      {/* <Form/> */}
       <Display taco={tacos}/>
 
     </div>
