@@ -1,10 +1,10 @@
 import React from "react"
+import Divtwo from "./divtwo"
 
 const DivOne = (props) => {
-    const {h3} = props
     return(
         <div>
-            <h3>{h3.tardis.name}</h3>
+            <Divtwo h3={props.h3}/>
         </div>
     )
 }

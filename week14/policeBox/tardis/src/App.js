@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Divone from "./components/divone"
+// import Divtwo from "./components/divtwo"
 
 function App() {
   const [state,setState] = React.useState({
