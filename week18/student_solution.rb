@@ -53,3 +53,12 @@ p nums.reject {|num| num%3==0}
 p nums.select {|num| num%5==0}
 
 
+# Color Array
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+# 1
+p colors.sample(1)
+# 2
+p colors.reverse
+# 3
+p colors.map(&:upcase)
