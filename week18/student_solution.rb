@@ -133,3 +133,28 @@ def euler_sum limit
 end
 
 p euler_sum(1000)
+
+# check prime
+def check_prime? num 
+    for i in 2...Math.sqrt(num)+1 do
+        if num ==2
+            return true
+        end
+        if num%i==0 
+            return false
+        end
+    end
+    return true
+end
+
+p check_prime? 4
+
+def get_primes limit
+    for i in 2...limit do
+        if check_prime? i
+            p i
+        end
+    end
+end
+
+p get_primes 100
