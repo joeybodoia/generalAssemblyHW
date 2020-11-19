@@ -82,3 +82,39 @@ def multiply_each_by_five arr
 end
 
 p multiply_each_by_five(nums)
+
+# Hashes
+
+book = {
+  title: 'The Great Gatsby',
+  author: 'F Scott Fitzgerald',
+  year: 1925,
+  price: 10
+}
+
+lamp = {
+  type: 'reading',
+  brand: 'Ikea',
+  price: 25
+}
+
+table = {
+  type: 'bed side',
+  brand: 'Crate & Barrel',
+  color: 'birch',
+  price: 50
+}
+
+
+
+def print_price hash 
+    hash[:price]
+end
+
+p print_price book
+
+def print_item_sums hash1,hash2
+    hash1[:price]+hash2[:price]
+end
+
+p print_item_sums(lamp,table)
