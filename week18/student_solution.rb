@@ -120,3 +120,16 @@ end
 p print_item_sums(lamp,table)
 
 p print_item_sums(table,book)
+
+# Euler problem 1
+def euler_sum limit
+    sum=0
+    for i in 0...limit do
+        if i%3==0 || i%5==0
+            sum +=i
+        end
+    end
+    return sum
+end
+
+p euler_sum(1000)
