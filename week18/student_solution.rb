@@ -118,3 +118,5 @@ def print_item_sums hash1,hash2
 end
 
 p print_item_sums(lamp,table)
+
+p print_item_sums(table,book)
