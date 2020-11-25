@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Character.create([
-	{ name: "Neo", description: false },
-	{ name: "Trinity", description: false },
-	{ name: "Morpheus", description: false },
-	{ name: "Agent Smith", description: false },
+	{ name: "Neo", description: "Neo from the matrix" },
+	{ name: "Trinity", description: "Trinity from the matrix" },
+	{ name: "Morpheus", description: "Morpheus from the matrix" },
+	{ name: "Agent Smith", description: "Agent Smith from the matrix" },
 ])
