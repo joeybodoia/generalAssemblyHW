@@ -12,3 +12,8 @@ Character.create([
 	{ name: "Morpheus", description: "Morpheus from the matrix" },
 	{ name: "Agent Smith", description: "Agent Smith from the matrix" },
 ])
+
+
+# Vehicle.create([
+#     {name:''}
+# ])
